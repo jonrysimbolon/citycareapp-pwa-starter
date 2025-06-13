@@ -105,7 +105,7 @@ export async function registerServiceWorker() {
   }
 
   try {
-    const registration = await navigator.serviceWorker.register('/citycareapp-pwa-starter/sw.bundle.js');
+    const registration = await navigator.serviceWorker.register('/sw.bundle.js'); //keperluan github pages, ubah aja sesuai path, namun tidak untuk netifly or vercel
     console.log('Service worker telah terpasang', registration);
   } catch (error) {
     console.error('Failed to install service worker:', error);

@@ -33,7 +33,6 @@ module.exports = merge(common, {
     new InjectManifest({
       swSrc: path.resolve(__dirname, 'src/scripts/sw.js'),
       swDest: 'sw.bundle.js',
-      skipWaiting: true,
       exclude: [/\.DS_Store$/],
     }),
   ],

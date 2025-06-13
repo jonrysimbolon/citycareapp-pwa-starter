@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/nama-repo/', // untuk kebutuhan github page, kalau vercel atau netlify katanya gk usah.
+    publicPath: '/citycareapp-pwa-starter/', // untuk kebutuhan github page, kalau vercel atau netlify katanya gk usah.
   },
   module: {
     rules: [
